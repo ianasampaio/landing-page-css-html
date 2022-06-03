@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid var(--light-gray-color);
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.header .title{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--primary-color);
+}
